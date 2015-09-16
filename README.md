@@ -14,10 +14,6 @@ este repositorio describiremos algunas de esas combinaciones.
 
 ----------
 
-[TOC]
-
-----------
-
 
 ## Navegación
 
@@ -33,7 +29,26 @@ Explicación.
 
 ## 2 keys
 
-<kbd>d</kbd> and <kbd>d</kbd>
+### Eliminar una línea de código entera 
+
+**Combo:** <kbd>d</kbd> + <kbd>d</kbd>
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```css
+p
+    margin 0
+    color white
+```
+
+Si situamos el cursor sobre <kbd>margin 0</kbd> al aplicar el combo <kbd>dd</kbd>, obtendríamos lo siguiente:
+
+```css
+p
+    color white
+```
+
 
 ----------
 
@@ -41,21 +56,20 @@ Explicación.
 
 ### Intercambiar la posición con la línea inferior
 
-Combo: <kbd>d</kbd>, <kbd>d</kbd> y <kbd>p</kbd>
+**Combo:** <kbd>d</kbd> + <kbd>d</kbd> + <kbd>p</kbd>
+**Ejemplo:** 
 
 Si tuviéramos el siguiente código:
 
-``css
-// Example
+```css
 p
     margin 0
     color white
-``
+```
 
 Si situamos el cursor sobre <kbd>margin 0</kbd> al aplicar el combo <kbd>ddp</kbd>, obtendríamos lo siguiente:
 
-``css
-// Example
+```css
 p
     color white
     margin 0
