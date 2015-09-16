@@ -31,7 +31,7 @@ Explicación.
 
 ### Eliminar una línea de código entera 
 
-**Combo:** <kbd>d</kbd> + <kbd>d</kbd>
+**Combo:** <kbd>d</kbd> + <kbd>d</kbd>.
 **Ejemplo:**
 
 Si tuviéramos el siguiente código:
@@ -56,7 +56,7 @@ p
 
 ### Intercambiar la posición con la línea inferior
 
-**Combo:** <kbd>d</kbd> + <kbd>d</kbd> + <kbd>p</kbd>
+**Combo:** <kbd>d</kbd> + <kbd>d</kbd> + <kbd>p</kbd>.
 **Ejemplo:** 
 
 Si tuviéramos el siguiente código:
