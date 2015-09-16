@@ -31,7 +31,7 @@ Si tuviéramos el siguiente código y posicionamos el cursor delante del caracte
 var order = 'SC';
 ```
 
-Y luego presionamos la tecla <kbd>i</kbd> pasamos a modo insersión, luego escribimos por ejemplo la letra A, tendríamos:
+Y luego presionamos la tecla <kbd>i</kbd> pasamos a modo inserción, luego escribimos por ejemplo la letra A, tendríamos:
 
 ```js
 var order = 'ASC';
