@@ -29,6 +29,26 @@ Explicación.
 
 ## 2 keys
 
+
+### Cambiar de posición un caracter con el caracter siguiente 
+
+**Combo:** <kbd>x</kbd> + <kbd>p</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```js
+var roder = 'ASC';
+```
+
+Si situamos el cursor delante del caracter <kbd>r</kbd> al aplicar el combo <kbd>xp</kbd>, obtendríamos lo siguiente:
+
+```js
+var order = 'ASC';
+```
+
+
 ### Eliminar una línea de código entera 
 
 **Combo:** <kbd>d</kbd> + <kbd>d</kbd>.
