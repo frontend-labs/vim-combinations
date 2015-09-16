@@ -25,6 +25,32 @@ Explicación.
 | Phone    | $12   |  12   |
 | Pipe     | $1    |  234  |
 
+
+----------
+
+## Modos
+
+
+### Modo Insertar 
+
+**tecla:** <kbd>i</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código y nos posicionamos el cursor delante del caracter <kbd>S</kbd>:
+
+```js
+var order = 'SC';
+```
+
+Y luego presionamos la tecla <kbd>i</kbd> pasamos a modo insersión y escribimos por ejemplo la letra A, tendríamos:
+
+```js
+var order = 'ASC';
+```
+
+
+
 ----------
 
 ## 2 keys
