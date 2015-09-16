@@ -37,6 +37,23 @@ Y luego presionamos la tecla <kbd>i</kbd> pasamos a modo insersión, luego escri
 var order = 'ASC';
 ```
 
+**Tecla:** <kbd>a</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código y posicionamos el cursor delante del caracter <kbd>D</kbd>:
+
+```js
+var order = 'DSC';
+```
+
+Y luego presionamos la tecla <kbd>a</kbd> pasamos a modo insersión, luego escribimos por ejemplo la letra E, tendríamos:
+
+```js
+var order = 'DESC';
+```
+
+
 
 
 ----------
