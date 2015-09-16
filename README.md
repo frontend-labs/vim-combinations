@@ -12,18 +12,6 @@ este repositorio describiremos algunas de esas combinaciones.
 > **Nota:**
 > Si conoces alguna otra **combinación**, por favor no dudes en hacer un **pull-request**.
 
-----------
-
-
-## Navegación
-
-Explicación.
-
-| Item     | Value | Qty   |
-| :------- | ----: | :---: |
-| Computer | $1600 |  5    |
-| Phone    | $12   |  12   |
-| Pipe     | $1    |  234  |
 
 
 ----------
@@ -33,17 +21,17 @@ Explicación.
 
 ### Modo Insertar 
 
-**tecla:** <kbd>i</kbd>.
+**Tecla:** <kbd>i</kbd>.
 
 **Ejemplo:**
 
-Si tuviéramos el siguiente código y nos posicionamos el cursor delante del caracter <kbd>S</kbd>:
+Si tuviéramos el siguiente código y posicionamos el cursor delante del caracter <kbd>S</kbd>:
 
 ```js
 var order = 'SC';
 ```
 
-Y luego presionamos la tecla <kbd>i</kbd> pasamos a modo insersión y escribimos por ejemplo la letra A, tendríamos:
+Y luego presionamos la tecla <kbd>i</kbd> pasamos a modo insersión, luego escribimos por ejemplo la letra A, tendríamos:
 
 ```js
 var order = 'ASC';
@@ -123,3 +111,17 @@ p
     margin 0
 ```
 
+
+
+----------
+
+
+## Navegación
+
+Explicación.
+
+| Item     | Value | Qty   |
+| :------- | ----: | :---: |
+| Computer | $1600 |  5    |
+| Phone    | $12   |  12   |
+| Pipe     | $1    |  234  |
