@@ -145,6 +145,24 @@ p
     margin 0
 ```
 
+### Eliminar un grupo de caracteres (alfanumericas,caracteres especiales).
+
+**Combo:** <kbd>c</kbd> + <kbd>a</kbd> + <kbd>w</kbd>.
+
+**Ejemplo:** 
+
+Si tuviéramos el siguiente código:
+
+```css
+h1
+    color red
+```
+
+Si situamos el cursor sobre el atributo <kbd>color</kbd>, y ejecutamos el combo en modo normal, obtendríamos lo siguiente:
+```css
+h1
+    red
+```
 
 
 ----------
