@@ -119,6 +119,53 @@ Si situamos el cursor en el caracter <kbd>a</kbd> al aplicar el combo <kbd>de</k
 box-sizing: border-box
 ```
 
+
+
+### Ir hasta la primera línea de código de un archivo 
+
+**Combo:** <kbd>g</kbd> + <kbd>g</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```js
+/*
+GulpCssUrlVersioner
+@class GulpCssUrlVersioner
+ */
+
+/*
+ * Module dependencies.
+ */
+var Buffer, CssUrlVersioner, GulpCssUrlVersioner, chalk, extend, through, util;
+
+util = require('util');
+through = require('through2');
+chalk = require('chalk');
+Buffer = require('buffer').Buffer;
+extend = util._extend;
+CssUrlVersioner = require('css-url-versioner');
+
+/*
+ * Library.
+ */
+GulpCssUrlVersioner = function(opts) {
+  this.data = {};
+  this.settings = opts || {
+    debug: false
+  };
+  this.css = '';
+  this.transform();
+  return this.stream;
+};
+```
+
+y tuviéramos el cursor posicionado en cualquier línea, al aplicar el combo <kbd>gg</kbd>, el cursor se posicionaría delante del primer caracter de la primera línea de codigo de nuestro archivo.
+
+
+
+
 ----------
 
 ## 3 keys
