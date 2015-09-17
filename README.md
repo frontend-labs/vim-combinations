@@ -101,6 +101,23 @@ p
     color white
 ```
 
+### Borrar palabra 
+
+**Combo:** <kbd>d</kbd> + <kbd>w</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```css
+font-size: 13px 12px
+```
+
+Si situamos el cursor delante del palabra <kbd>12px</kbd> al aplicar el combo <kbd>dw</kbd>, obtendríamos lo siguiente:
+
+```css
+font-size: 13px
+```
 
 ----------
 
