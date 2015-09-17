@@ -103,7 +103,7 @@ p
 
 ### Borrar palabra 
 
-**Combo:** <kbd>d</kbd> + <kbd>w</kbd>.
+**Combo:** <kbd>d</kbd> + <kbd>e</kbd>.
 
 **Ejemplo:**
 
@@ -113,7 +113,7 @@ Si tuviéramos el siguiente código:
 font-size: 13px 12px
 ```
 
-Si situamos el cursor delante del palabra <kbd>12px</kbd> al aplicar el combo <kbd>dw</kbd>, obtendríamos lo siguiente:
+Si situamos el cursor delante del palabra <kbd>12px</kbd> al aplicar el combo <kbd>de</kbd>, obtendríamos lo siguiente:
 
 ```css
 font-size: 13px
