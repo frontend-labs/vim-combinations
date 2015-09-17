@@ -101,7 +101,7 @@ p
     color white
 ```
 
-### Borrar palabra 
+### Borrar resto de palabra desde un punto específico 
 
 **Combo:** <kbd>d</kbd> + <kbd>e</kbd>.
 
@@ -110,13 +110,13 @@ p
 Si tuviéramos el siguiente código:
 
 ```css
-font-size: 13px 12px
+box-sizingabc: border-box
 ```
 
-Si situamos el cursor delante del palabra <kbd>12px</kbd> al aplicar el combo <kbd>de</kbd>, obtendríamos lo siguiente:
+Si situamos el cursor en el caracter <kbd>a</kbd> al aplicar el combo <kbd>de</kbd>, obtendríamos lo siguiente:
 
 ```css
-font-size: 13px
+box-sizing: border-box
 ```
 
 ----------
