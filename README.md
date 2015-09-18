@@ -163,6 +163,24 @@ GulpCssUrlVersioner = function(opts) {
 
 y tuviéramos el cursor posicionado en cualquier línea, al aplicar el combo <kbd>gg</kbd>, el cursor se posicionaría delante del primer caracter de la primera línea de codigo de nuestro archivo.
 
+### Copiar y pegar una linea debajo de linea actual
+
+**Combo:** <kbd>yy</kbd> + <kbd>p</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```js
+var a = "Test";
+```
+
+Si situamos el cursor en cualquier posición de la linea, al aplicar el combo <kbd>yyp</kbd>, obtendríamos lo siguiente:
+
+```js
+var a = "Test";
+var a = "Test";
+```
 
 
 
