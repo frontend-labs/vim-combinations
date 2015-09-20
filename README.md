@@ -163,6 +163,54 @@ GulpCssUrlVersioner = function(opts) {
 
 y tuviéramos el cursor posicionado en cualquier línea, al aplicar el combo <kbd>gg</kbd>, el cursor se posicionaría delante del primer caracter de la primera línea de codigo de nuestro archivo.
 
+
+
+
+### Ir hasta la última línea de código de un archivo 
+
+**Tecla:** <kbd>G</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```js
+/*
+GulpCssUrlVersioner
+@class GulpCssUrlVersioner
+ */
+
+/*
+ * Module dependencies.
+ */
+var Buffer, CssUrlVersioner, GulpCssUrlVersioner, chalk, extend, through, util;
+
+util = require('util');
+through = require('through2');
+chalk = require('chalk');
+Buffer = require('buffer').Buffer;
+extend = util._extend;
+CssUrlVersioner = require('css-url-versioner');
+
+/*
+ * Library.
+ */
+GulpCssUrlVersioner = function(opts) {
+  this.data = {};
+  this.settings = opts || {
+    debug: false
+  };
+  this.css = '';
+  this.transform();
+  return this.stream;
+};
+```
+
+Y tuviéramos el cursor posicionado en cualquier línea, al presionar la tecla <kbd>G</kbd>, el cursor se posicionaría en el último caracter de la última línea de código de nuestro archivo.
+
+
+
+
 ### Copiar y pegar una linea debajo de linea actual
 
 **Combo:** <kbd>yy</kbd> + <kbd>p</kbd>.
