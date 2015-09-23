@@ -18,6 +18,21 @@ este repositorio describiremos algunas de esas combinaciones.
 
 ## Modos
 
+### Modo Normal o Modo Navegación
+
+Este modo de vim es el que te permitirá navegar por todo el documento de una forma increíble. A este modo se accede presionando la tecla <kbd>Esc</kbd>.
+
+En la siguente tabla mostramos la navegacion básica en vim: 
+
+| Tecla     | Acción                                    |
+| :-------- | :-----------------------------------      |
+| k         | mueve el cursor hacia una línea superior. |
+| j         | mueve el cursor hacia una línea inferior. |
+| h         | mueve el cursor hacia un caracter a la izquierda |
+| l         |  mueve el cursor hacia un caracter a la derecha |
+
+
+
 
 ### Modo Insertar 
 
@@ -280,13 +295,3 @@ h1
 
 ----------
 
-
-## Navegación
-
-Explicación.
-
-| Item     | Value | Qty   |
-| :------- | ----: | :---: |
-| Computer | $1600 |  5    |
-| Phone    | $12   |  12   |
-| Pipe     | $1    |  234  |
