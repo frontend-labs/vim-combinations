@@ -16,7 +16,22 @@ este repositorio describiremos algunas de esas combinaciones.
 
 ----------
 
-## Modos
+## Movimiento del Cursor(Desplazamiento)
+
+### Saltar hacia el inicio de una línea
+
+**Tecla:** <kbd>0</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código y tenemos el cursor en cualquier posición:
+
+```js
+var order = 'ASC';
+```
+
+Y luego presionamos la tecla <kbd>0</kbd> el cursor se desplazará hacía el inicio de la línea, osea el cursor se pondrá delante de la letra <kbd>var</kbd>.
+
 
 ### Modo Normal o Modo Navegación
 
