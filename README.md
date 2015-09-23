@@ -75,6 +75,36 @@ var order = 'DESC';
 
 ## 2 keys
 
+### Comentar un bloque de líneas
+
+Para aplicar este combo primero entrar al modo bloque visual.
+
+**Combo:**<kbd>shift</kbd> + <kbd>i</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```js
+var a = 'SFSSD';
+var b = 'SFSFSDFS';
+var c = 'SFDSFDSFDSF';
+```
+Si situamos el cursor en la palabra reservada <kbd>var</kbd>, luego entrar al modo bloque visual, luego moverte hasta la linea que deseas comentar, en este caso sera <kbd>var</kbd> de la tercera linea , siempre posicionando en el primer caracter de la linea, luego aplicamos <kbd>shift</kbd> + <kbd>i</kbd> , luego <kbd>//</kbd> para comentar, luego <kbd>ESC</kbd> y listo.
+
+```js
+var a = 'SFSSD';
+var b = 'SFSFSDFS';
+var c = 'SFDSFDSFDSF';
+```
+
+Obtendremos :
+
+```js
+//var a = 'SFSSD';
+//var b = 'SFSFSDFS';
+//var c = 'SFDSFDSFDSF';
+```
 
 ### Cambiar de posición un caracter con el caracter siguiente 
 
