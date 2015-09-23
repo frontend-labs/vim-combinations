@@ -83,12 +83,17 @@ Y luego presionamos la tecla <kbd>a</kbd> pasamos a modo insersión, luego escri
 var order = 'DESC';
 ```
 
+### Deshacer el último cambio
 
-
+**Tecla:** <kbd>u</kbd>.
 
 ----------
 
 ## 2 keys
+
+### Rehacer el último cambio
+
+**Tecla:** <kbd>Ctrl</kbd> + <kbd>R</kbd>.
 
 ### Comentar un bloque de líneas
 
