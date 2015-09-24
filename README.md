@@ -184,6 +184,24 @@ Si situamos el cursor en el caracter <kbd>a</kbd> al aplicar el combo <kbd>de</k
 box-sizing: border-box
 ```
 
+### Borrar palabra desde cualquier punto 
+
+**Combo:** <kbd>b</kbd> + <kbd>de</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```js
+array.push('var1')
+```
+
+Si situamos el cursor en cualquier posición dentro de la palabra <kbd>var1</kbd> al aplicar el combo <kbd>bde</kbd>, obtendríamos lo siguiente:
+
+```js
+array.push('')
+```
+
 ### Borrar resto de línea desde un punto específico 
 
 **Combo:** <kbd>d</kbd> + <kbd>$</kbd>.
