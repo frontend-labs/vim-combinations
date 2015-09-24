@@ -184,7 +184,7 @@ Si situamos el cursor en el caracter <kbd>a</kbd> al aplicar el combo <kbd>de</k
 box-sizing: border-box
 ```
 
-### Borrar resto de linea desde un punto específico 
+### Borrar resto de línea desde un punto específico 
 
 **Combo:** <kbd>d</kbd> + <kbd>$</kbd>.
 
@@ -196,7 +196,7 @@ Si tuviéramos el siguiente código:
 border 1px 2px 3px 4px
 ```
 
-Si situamos el cursor detrás de la palabra <kbd>2px</kbd> al aplicar el combo <kbd>d$</kbd>, obtendríaamos lo siguiente:
+Si situamos el cursor detrás de la palabra <kbd>2px</kbd> al aplicar el combo <kbd>d$</kbd>, obtendríamos lo siguiente:
 
 ```css
 border 1px 2px
