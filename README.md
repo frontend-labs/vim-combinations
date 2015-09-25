@@ -381,3 +381,48 @@ h1
 
 ----------
 
+
+
+
+
+
+## Edición
+
+### Reemplazar una línea entera
+
+**Combo:** <kbd>c</kbd> + <kbd>c</kbd>.
+
+**Ejemplo:** 
+
+Si tuviéramos el siguiente código:
+
+```css
+p
+    color white
+    margin 0
+```
+
+Si situamos el cursor sobre <kbd>margin 0</kbd> al aplicar el combo <kbd>cc</kbd>, obtendríamos lo siguiente:
+
+```css
+p
+    color white
+    
+```
+
+Y por ultimo escribiremos <kbd>padding 0</kbd>, obtendríamos lo siguiente:
+
+```css
+p
+    color white
+    padding 0
+```
+
+Como podemos ver, al ejecutar el combo <kbd>cc</kbd> no se pierde la tabulación.
+
+
+
+----------
+
+
+
