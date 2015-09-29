@@ -220,6 +220,33 @@ Si situamos el cursor detrás de la palabra <kbd>2px</kbd> al aplicar el combo <
 border 1px 2px
 ```
 
+### Borrar todas las líneas hacia abajo desde el cursor
+
+**Combo:** <kbd>d</kbd> + <kbd>G</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```css
+.footer_note
+	background black
+	padding 30px
+
+	p
+		color #cccccc
+		margin 0
+
+```
+
+Si situamos el cursor en la palabra <kbd>padding</kbd> al aplicar el combo <kbd>dG</kbd>, obtendríamos lo siguiente:
+
+```css
+.footer_note
+	background black
+
+```
+
 
 
 ### Ir hasta la primera línea de código de un archivo 
