@@ -358,6 +358,13 @@ var a = "Test";
 var a = "Test";
 ```
 
+### Resaltar la última selección hecha
+
+**Combo:** <kbd>g</kbd> + <kbd>v</kbd>.
+
+**Ejemplo:**
+
+Si hubieramos realizado una selección y seguido a ello diferentes acciones, podemos volver a resaltar la última selección hecha mediante el combo <kbd>g</kbd> + <kbd>v</kbd>.
 
 
 ----------
