@@ -196,7 +196,7 @@ Si tuviéramos el siguiente código:
 array.push('var1')
 ```
 
-Si situamos el cursor en cualquier posición dentro de la palabra <kbd>var1</kbd> al aplicar el combo <kbd>bde</kbd>, obtendríamos lo siguiente:
+Si situamos el cursor en cualquier posición dentro de la palabra(excepto el primer caracter) <kbd>var1</kbd> al aplicar el combo <kbd>bde</kbd>, obtendríamos lo siguiente:
 
 ```js
 array.push('')
