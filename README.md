@@ -460,3 +460,49 @@ Como podemos ver, al ejecutar el combo <kbd>cc</kbd> no se pierde la tabulación
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Ventanas
+
+### Dividir la ventana verticalmente
+
+**Combo:** <kbd>ctrl</kbd> + <kbd>w</kbd> + <kbd>v</kbd>.
+
+
+### Dividir la ventana horizontalmente
+
+**Combo:** <kbd>ctrl</kbd> + <kbd>w</kbd> + <kbd>s</kbd>.
+
+### Navegar entre ventanas divididas
+
+**Combo:** <kbd>ctrl</kbd> + <kbd>w</kbd>.
+
+
+### Cerrar una ventana dividida
+
+**Combo:** <kbd>ctrl</kbd> + <kbd>w</kbd> + <kbd>q</kbd>.
+
+
+----------
+
+
