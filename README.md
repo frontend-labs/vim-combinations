@@ -37,7 +37,7 @@ Y luego presionamos la tecla <kbd>0</kbd> el cursor se desplazará hacía el ini
 
 Este modo de vim es el que te permitirá navegar por todo el documento de una forma increíble. A este modo se accede presionando la tecla <kbd>Esc</kbd>.
 
-En la siguente tabla mostramos la navegacion básica en vim: 
+En la siguente tabla mostramos la navegacion básica en vim:
 
 | Tecla     | Acción                                    |
 | :-------- | :-----------------------------------      |
@@ -49,7 +49,7 @@ En la siguente tabla mostramos la navegacion básica en vim:
 
 
 
-### Modo Insertar 
+### Modo Insertar
 
 **Tecla:** <kbd>i</kbd>.
 
@@ -86,6 +86,52 @@ var order = 'DESC';
 ### Deshacer el último cambio
 
 **Tecla:** <kbd>u</kbd>.
+
+----------
+
+## 1 key
+
+### Ir hasta la última línea de código de un archivo
+
+**Tecla:** <kbd>G</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```js
+/*
+GulpCssUrlVersioner
+@class GulpCssUrlVersioner
+ */
+
+/*
+ * Module dependencies.
+ */
+var Buffer, CssUrlVersioner, GulpCssUrlVersioner, chalk, extend, through, util;
+
+util = require('util');
+through = require('through2');
+chalk = require('chalk');
+Buffer = require('buffer').Buffer;
+extend = util._extend;
+CssUrlVersioner = require('css-url-versioner');
+
+/*
+ * Library.
+ */
+GulpCssUrlVersioner = function(opts) {
+  this.data = {};
+  this.settings = opts || {
+    debug: false
+  };
+  this.css = '';
+  this.transform();
+  return this.stream;
+};
+```
+
+Y tuviéramos el cursor posicionado en cualquier línea, al presionar la tecla <kbd>G</kbd>, el cursor se posicionaría en el último caracter de la última línea de código de nuestro archivo.
 
 ----------
 
@@ -126,7 +172,7 @@ Obtendremos :
 //var c = 'SFDSFDSFDSF';
 ```
 
-### Cambiar de posición un caracter con el caracter siguiente 
+### Cambiar de posición un caracter con el caracter siguiente
 
 **Combo:** <kbd>x</kbd> + <kbd>p</kbd>.
 
@@ -145,7 +191,7 @@ var order = 'ASC';
 ```
 
 
-### Eliminar una línea de código entera 
+### Eliminar una línea de código entera
 
 **Combo:** <kbd>d</kbd> + <kbd>d</kbd>.
 
@@ -166,7 +212,7 @@ p
     color white
 ```
 
-### Borrar resto de palabra desde un punto específico 
+### Borrar resto de palabra desde un punto específico
 
 **Combo:** <kbd>d</kbd> + <kbd>e</kbd>.
 
@@ -184,25 +230,7 @@ Si situamos el cursor en el caracter <kbd>a</kbd> al aplicar el combo <kbd>de</k
 box-sizing: border-box
 ```
 
-### Borrar palabra desde cualquier punto 
-
-**Combo:** <kbd>b</kbd> + <kbd>de</kbd>.
-
-**Ejemplo:**
-
-Si tuviéramos el siguiente código:
-
-```js
-array.push('var1')
-```
-
-Si situamos el cursor en cualquier posición dentro de la palabra(excepto el primer caracter) <kbd>var1</kbd> al aplicar el combo <kbd>bde</kbd>, obtendríamos lo siguiente:
-
-```js
-array.push('')
-```
-
-### Borrar resto de línea desde un punto específico 
+### Borrar resto de línea desde un punto específico
 
 **Combo:** <kbd>d</kbd> + <kbd>$</kbd>.
 
@@ -249,7 +277,7 @@ Si situamos el cursor en la palabra <kbd>padding</kbd> al aplicar el combo <kbd>
 
 
 
-### Ir hasta la primera línea de código de un archivo 
+### Ir hasta la primera línea de código de un archivo
 
 **Combo:** <kbd>g</kbd> + <kbd>g</kbd>.
 
@@ -292,72 +320,6 @@ GulpCssUrlVersioner = function(opts) {
 y tuviéramos el cursor posicionado en cualquier línea, al aplicar el combo <kbd>gg</kbd>, el cursor se posicionaría delante del primer caracter de la primera línea de codigo de nuestro archivo.
 
 
-
-
-### Ir hasta la última línea de código de un archivo 
-
-**Tecla:** <kbd>G</kbd>.
-
-**Ejemplo:**
-
-Si tuviéramos el siguiente código:
-
-```js
-/*
-GulpCssUrlVersioner
-@class GulpCssUrlVersioner
- */
-
-/*
- * Module dependencies.
- */
-var Buffer, CssUrlVersioner, GulpCssUrlVersioner, chalk, extend, through, util;
-
-util = require('util');
-through = require('through2');
-chalk = require('chalk');
-Buffer = require('buffer').Buffer;
-extend = util._extend;
-CssUrlVersioner = require('css-url-versioner');
-
-/*
- * Library.
- */
-GulpCssUrlVersioner = function(opts) {
-  this.data = {};
-  this.settings = opts || {
-    debug: false
-  };
-  this.css = '';
-  this.transform();
-  return this.stream;
-};
-```
-
-Y tuviéramos el cursor posicionado en cualquier línea, al presionar la tecla <kbd>G</kbd>, el cursor se posicionaría en el último caracter de la última línea de código de nuestro archivo.
-
-
-
-
-### Copiar y pegar una linea debajo de linea actual
-
-**Combo:** <kbd>yy</kbd> + <kbd>p</kbd>.
-
-**Ejemplo:**
-
-Si tuviéramos el siguiente código:
-
-```js
-var a = "Test";
-```
-
-Si situamos el cursor en cualquier posición de la linea, al aplicar el combo <kbd>yyp</kbd>, obtendríamos lo siguiente:
-
-```js
-var a = "Test";
-var a = "Test";
-```
-
 ### Resaltar la última selección hecha
 
 **Combo:** <kbd>g</kbd> + <kbd>v</kbd>.
@@ -375,7 +337,7 @@ Si hubieramos realizado una selección y seguido a ello diferentes acciones, pod
 
 **Combo:** <kbd>d</kbd> + <kbd>d</kbd> + <kbd>p</kbd>.
 
-**Ejemplo:** 
+**Ejemplo:**
 
 Si tuviéramos el siguiente código:
 
@@ -397,7 +359,7 @@ p
 
 **Combo:** <kbd>c</kbd> + <kbd>a</kbd> + <kbd>w</kbd>.
 
-**Ejemplo:** 
+**Ejemplo:**
 
 Si tuviéramos el siguiente código:
 
@@ -412,12 +374,44 @@ h1
     red
 ```
 
+### Borrar palabra desde cualquier punto
+
+**Combo:** <kbd>b</kbd> + <kbd>d</kbd> + <kbd>e</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```js
+array.push('var1')
+```
+
+Si situamos el cursor en cualquier posición dentro de la palabra(excepto el primer caracter) <kbd>var1</kbd> al aplicar el combo <kbd>bde</kbd>, obtendríamos lo siguiente:
+
+```js
+array.push('')
+```
+
+### Copiar y pegar una linea debajo de linea actual
+
+**Combo:** <kbd>y</kbd> + <kbd>y</kbd> + <kbd>p</kbd>.
+
+**Ejemplo:**
+
+Si tuviéramos el siguiente código:
+
+```js
+var a = "Test";
+```
+
+Si situamos el cursor en cualquier posición de la linea, al aplicar el combo <kbd>yyp</kbd>, obtendríamos lo siguiente:
+
+```js
+var a = "Test";
+var a = "Test";
+```
 
 ----------
-
-
-
-
 
 
 ## Edición
@@ -426,7 +420,7 @@ h1
 
 **Combo:** <kbd>c</kbd> + <kbd>c</kbd>.
 
-**Ejemplo:** 
+**Ejemplo:**
 
 Si tuviéramos el siguiente código:
 
@@ -441,7 +435,7 @@ Si situamos el cursor sobre <kbd>margin 0</kbd> al aplicar el combo <kbd>cc</kbd
 ```css
 p
     color white
-    
+
 ```
 
 Y por ultimo escribiremos <kbd>padding 0</kbd>, obtendríamos lo siguiente:
@@ -504,5 +498,3 @@ Como podemos ver, al ejecutar el combo <kbd>cc</kbd> no se pierde la tabulación
 
 
 ----------
-
-
