@@ -83,13 +83,14 @@ Y luego presionamos la tecla <kbd>a</kbd> pasamos a modo insersión, luego escri
 var order = 'DESC';
 ```
 
-### Deshacer el último cambio
-
-**Tecla:** <kbd>u</kbd>.
-
 ----------
 
 ## 1 key
+
+
+### Deshacer el último cambio
+
+**Tecla:** <kbd>u</kbd>.
 
 ### Ir hasta la última línea de código de un archivo
 
