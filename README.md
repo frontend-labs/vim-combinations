@@ -324,11 +324,11 @@ y tuviéramos el cursor posicionado en cualquier línea, al aplicar el combo <kb
 
 Avanzar una palabra
 
-***Tecla*** <kbd>w</kbd>.
+**Tecla** <kbd>w</kbd>.
 
 Retroceder una palabra
 
-***Tecla*** <kbd>b</kbd>.
+**Tecla** <kbd>b</kbd>.
 
 ### Resaltar la última selección hecha
 
