@@ -16,7 +16,7 @@ este repositorio describiremos algunas de esas combinaciones.
 
 ----------
 
-## Movimiento del Cursor(Desplazamiento)
+## Movimiento del cursor (Desplazamiento)
 
 ### Saltar hacia el inicio de una línea
 
@@ -146,7 +146,7 @@ Y tuviéramos el cursor posicionado en cualquier línea, al presionar la tecla <
 
 Para aplicar este combo primero entrar al modo bloque visual.
 
-**Combo:**<kbd>shift</kbd> + <kbd>i</kbd>.
+**Combo:** <kbd>shift</kbd> + <kbd>i</kbd>.
 
 **Ejemplo:**
 
@@ -320,6 +320,15 @@ GulpCssUrlVersioner = function(opts) {
 
 y tuviéramos el cursor posicionado en cualquier línea, al aplicar el combo <kbd>gg</kbd>, el cursor se posicionaría delante del primer caracter de la primera línea de codigo de nuestro archivo.
 
+### Navegar entre palabras
+
+Avanzar una palabra
+
+***Tecla*** <kbd>w</kbd>.
+
+Retroceder una palabra
+
+***Tecla*** <kbd>b</kbd>.
 
 ### Resaltar la última selección hecha
 
