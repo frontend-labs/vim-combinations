@@ -12,8 +12,6 @@ este repositorio describiremos algunas de esas combinaciones.
 > **Nota:**
 > Si conoces alguna otra **combinación**, por favor no dudes en hacer un **pull-request**.
 
-
-
 ----------
 
 ## Movimiento del cursor (Desplazamiento)
@@ -461,7 +459,6 @@ Como podemos ver, al ejecutar el combo <kbd>cc</kbd> no se pierde la tabulación
 
 
 ----------
-
 
 
 
